@@ -201,3 +201,9 @@ footer{border-top:3px solid #b38a37}
 .service-visual-01{background-image:linear-gradient(0deg,rgba(5,28,51,.16),rgba(5,28,51,.16)),url("https://unsplash.com/photos/F8fYuNwHvHU/download?force=true&w=650");background-size:cover;background-position:center}
 .service-visual-02{background-image:linear-gradient(120deg,rgba(6,29,53,.12),rgba(6,29,53,.42)),url("https://unsplash.com/photos/Tqb4mhNtMU8/download?force=true&w=650");background-size:cover;background-position:center}
 .service-visual-04{background-image:linear-gradient(120deg,rgba(6,29,53,.12),rgba(6,29,53,.4)),url("https://unsplash.com/photos/9BOkOMB3Rug/download?force=true&w=650");background-size:cover;background-position:center}
+
+/* Locally hosted illustrative photography: managed by scripts/localize_photos.py */
+.hero{background-image:linear-gradient(90deg,rgba(3,17,37,.96) 0%,rgba(7,27,48,.83) 40%,rgba(7,28,50,.38) 68%,rgba(7,28,50,.72) 100%),url("assets/offshore-platform.webp")}
+.service-visual-01{background-image:linear-gradient(0deg,rgba(5,28,51,.17),rgba(5,28,51,.17)),url("assets/exploration.webp")}
+.service-visual-02{background-image:linear-gradient(120deg,rgba(6,29,53,.1),rgba(6,29,53,.36)),url("assets/asset-management.webp")}
+.service-visual-04{background-image:linear-gradient(120deg,rgba(6,29,53,.12),rgba(6,29,53,.38)),url("assets/well-intervention.webp")}
