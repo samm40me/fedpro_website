@@ -216,3 +216,8 @@ footer{border-top:3px solid #b38a37}
 .showcase-services .service-visual-05:before,.showcase-services .service-visual-05:after,
 .showcase-services .service-visual-06:before,.showcase-services .service-visual-06:after,
 .showcase-services .service-visual-07:before,.showcase-services .service-visual-07:after{display:none}
+
+
+/* Dedicated locally hosted reservoir simulation image for service 03 */
+.showcase-services .service-visual-03{background:#081e37 url("assets/service-reservoir.svg") center/cover no-repeat}
+.showcase-services .service-visual-03:before,.showcase-services .service-visual-03:after{display:none}
