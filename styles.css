@@ -155,3 +155,42 @@ footer{border-top:3px solid #b38a37}
 @media(min-width:901px){.hero{background-position:center center}}
 @media(max-width:900px){.hero{background-position:60% center}}
 @media(prefers-reduced-data:reduce){.hero{background-image:linear-gradient(115deg,#07182f,#123764)}}
+
+
+/* Mockup-inspired homepage composition, with original FEDPRO technical graphics */
+.hero{background-image:linear-gradient(90deg,rgba(3,17,37,.97),rgba(7,30,55,.77) 58%,rgba(7,28,50,.8)),url("assets/offshore-engineering.svg")}
+.hero-grid{align-items:center}
+.hero h1 em{color:#e8b548;font-style:normal}
+.hero-stats[hidden]{display:none!important}
+.hero-card{background:rgba(7,27,52,.94);color:#fff;border:1px solid rgba(226,179,72,.45);border-top:5px solid #e5b246;box-shadow:0 25px 70px rgba(0,0,0,.25)}
+.hero-card h2,.hero-card li{color:#fff}
+.hero-card p{color:#dbe5f0}
+.hero-card-topline{color:#f4f6fa}
+.hero-card li{border-color:rgba(255,255,255,.12)}
+.hero-card img{filter:brightness(1.35)}
+.value-strip{background:#06172c;color:#fff;border-top:1px solid rgba(255,255,255,.12)}
+.value-strip-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:19px 0;gap:0}
+.value-strip-grid>div{display:flex;align-items:center;justify-content:center;gap:16px;padding:4px 14px;border-right:1px solid rgba(255,255,255,.16);font-size:.84rem;line-height:1.5}
+.value-strip-grid>div:last-child{border:0}
+.value-strip-grid b{color:#e9b449;font-size:2rem;font-weight:700}
+.showcase-services{background:#f9fafc;color:#102b4e}
+.showcase-services .section-heading h2{color:#102b4e}
+.showcase-services .section-heading p{color:#50647b}
+.showcase-services .cards-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.showcase-services .service-card{background:#fff;color:#122d4e;border:1px solid #dce4ed;border-radius:8px;overflow:hidden;min-height:0;padding:0;box-shadow:0 8px 24px rgba(5,29,58,.05)}
+.showcase-services .service-card:last-child:nth-child(3n + 1){grid-column:auto}
+.showcase-services .service-card h3{color:#102b4e;font-size:1.02rem;line-height:1.4}
+.showcase-services .service-card p{color:#586b82;font-size:.88rem}
+.showcase-services .service-body{padding:18px 18px 24px}
+.service-visual{height:135px;position:relative;overflow:hidden;background:linear-gradient(135deg,#143a5b,#061a33);border-bottom:1px solid #e1e8ee}
+.service-visual:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(160deg,transparent 0 19px,rgba(238,188,77,.15) 20px 21px,transparent 22px 42px);transform:skewY(-8deg)}
+.service-visual:after{content:"";position:absolute;width:180px;height:180px;border:20px solid rgba(241,187,73,.35);border-radius:50%;right:-50px;top:12px}
+.service-visual-02{background:linear-gradient(130deg,#1a5265,#0c2949)}
+.service-visual-03{background:radial-gradient(ellipse at 65% 75%,#e8a33e,#297c83 35%,#0b365a 68%,#061b34)}
+.service-visual-04{background:linear-gradient(145deg,#7a562e,#14334d 65%,#06182b)}
+.service-visual-05{background:linear-gradient(130deg,#143553,#275b75)}
+.service-visual-06{background:linear-gradient(130deg,#314b62,#102b47)}
+.service-visual-07{background:radial-gradient(circle at 70% 45%,#347f9b,#092944 60%)}
+.service-visual span{position:absolute;top:13px;left:14px;z-index:2;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:5px;background:#e6b344;color:#092541;font-size:.9rem;font-weight:800}
+@media(max-width:1100px){.showcase-services .cards-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.value-strip-grid{grid-template-columns:repeat(3,1fr);row-gap:12px}.value-strip-grid>div:nth-child(3){border-right:0}}
+@media(max-width:620px){.showcase-services .cards-grid{grid-template-columns:1fr}.value-strip-grid{grid-template-columns:1fr 1fr}.value-strip-grid>div{justify-content:flex-start;border:0;gap:9px;font-size:.74rem}.value-strip-grid b{font-size:1.45rem}.hero-card{background:rgba(7,27,52,.96)}}
